@@ -22,12 +22,12 @@ public class Genie {
         wishesGranted++;
     }
 
-    public boolean wishesAvailable(){
+    public boolean canGrantWish(){
         return wishesGranted < maxWishes;
     }
 
     public boolean grantWish(){
-         if (wishesAvailable()){
+         if (canGrantWish()){
              increaseGranted();
              return true;
          }

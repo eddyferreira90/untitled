@@ -10,4 +10,6 @@ public class FriendlyGenie extends Genie{
     public int remainingWishes(){
         return getMaxWishes() - getWishesGranted();
     }
+
+
 }

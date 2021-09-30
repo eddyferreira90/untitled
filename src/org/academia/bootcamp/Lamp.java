@@ -43,27 +43,6 @@ public class Lamp {
 
 
 
-    public rubLamp(int wishes) {
-        Genie genie;
-        if (currentRubs < maxGenies) {
-            currentRubs++;
-            totalRubs++;
-            if (totalRubs % 2 == 0) {
-                genie = new FriendlyGenie(wishes);
-                return genie;
-            }
-            Genie genie = new GrumpyGenie(wishes);
-                    return genie;
-            }
-            return demon = (demon ? demon : new RecyclableDemon(wishes));
 
-                void feedDemon(RecyclableDemon demon) {
-                    if (demon != demon) return;
-                    if (!demon-> ) {
-                        demon->recycle();
-                        delete _demon;
-                       _demon = NULL;
-                       currentRubs = 0;
-                        _demons++;
                     }
 }

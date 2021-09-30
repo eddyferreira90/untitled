@@ -7,5 +7,10 @@ public class GrumpyGenie extends Genie{
         super(1);
     }
 
+    @Override
+    public boolean grantWish() {
+        if(getWishesGranted() < 1){
 
+        }
+    }
 }
